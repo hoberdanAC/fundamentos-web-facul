@@ -56,6 +56,30 @@
         .linkedin-link:hover {
             background-color: #005f8b;
         }
+
+         /* Estilo para o botão de voltar */
+         .return-button {
+            background-color: #008000;
+            color: #fff;
+            border: none;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .return-button:hover {
+            background-color: #006400;
+        }
+
+        .return-button:active {
+            background-color: #004d00;
+        }
+         
     </style>
 </head>
 <body>
@@ -92,6 +116,9 @@
 
         <!-- Link para o LinkedIn -->
         <a href="https://www.linkedin.com/in/hoberdancampos/" target="_blank" class="linkedin-link">Visite meu LinkedIn</a>
+         <!-- Botão de retorno -->
+         <button class="return-button" onclick="window.history.back()">Voltar</button>
+        </div>
     </div>
 </body>
 </html>
